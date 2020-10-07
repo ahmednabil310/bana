@@ -1,0 +1,75 @@
+.dashboard-table {
+  .table {
+    thead {
+      tr {
+        th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          background: $white-color;
+          color: $theme-text-color-medium;
+          font-size: 14px;
+          font-weight: 500;
+          border: 1px solid  $stroke-color;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          background: $white-color;
+          border: 1px solid  $stroke-color;
+          border-top: 1px solid transparent;
+          border-bottom: 1px solid transparent;
+          vertical-align: middle;
+          color: $dark-grey;
+
+          img {
+            width: 60px;
+            height: 30px;
+            margin-right: 8px;
+            object-fit: cover;
+          }
+        }
+
+        &:nth-child(even) {
+          td {
+            background: $grey-color-light-bg;
+          }
+        }
+
+        &:hover {
+          box-shadow: 0 0 10px rgba(0,0,0,.1);
+          transform: scale(1);
+          border: 1px solid  $stroke-color;
+          td {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.my-label {
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+
+  &.red {
+    background: $red-color;
+  }
+
+  &.yellow {
+    background: $yellow;
+  }
+
+  &.grey {
+    background: $grey-color-md;
+  }
+
+  &.green {
+    background: $green;
+  }
+}

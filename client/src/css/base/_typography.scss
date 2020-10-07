@@ -1,0 +1,130 @@
+h1, h2, h3, h4 {
+  font-family: $roboto!important;
+  font-weight: 500;
+  color: $theme-text-color;
+}
+
+ul {
+  li {
+    font-family: $roboto!important;
+  }
+}
+
+.font-roboto {
+  font-family: $roboto!important;
+}
+
+.font-montserrat {
+  font-family: $montserrat!important;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 767px) {
+		font-size: 16px;
+	}
+}
+
+.text-semibold {
+  font-weight: 500!important;
+}
+
+.text-bold {
+  font-weight: 600!important;
+}
+
+//TEXT COLORS
+
+.text-purple {
+  color: $purple-color!important;
+}
+
+.text-dark-grey {
+  color: $dark-grey!important;
+}
+
+.text-green {
+  color: $green-color!important;
+}
+
+.text-red {
+   color: $red-color!important;
+}
+
+.text-light {
+  color: $theme-text-color-medium!important;
+}
+
+.text-blue {
+  color: $theme-color!important;
+}
+
+.text-orange {
+  color: $orange!important;
+}
+
+
+.text-light-grey {
+  color: $grey-color-secondary!important;
+}
+
+.text-light-grey-md {
+  color: $grey-color-md!important;
+}
+
+.text-highliten {
+  font-weight: bold!important;
+  color: #3B5998!important;
+}
+
+//TEXT DECORATION
+
+.text-underline {
+  text-decoration: underline;
+}
+
+//FONT SIZE
+.text-sm {
+  font-size: 14px!important;
+}
+
+.text-xs {
+  font-size: 12px!important;
+}
+
+.text-md {
+  font-size: 16px!important;
+}
+
+.text-lg {
+  font-size: 18px!important;
+}
+
+//TEXT FONT
+.roboto-slab {
+  font-family: $roboto-slab;
+}
+
+//LINES CONTROL
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.selected-icon {
+  color: $theme-color;
+}
+
+.not-selected-icon {
+  color: $grey-color-secondary;
+}

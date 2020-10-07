@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+  padding-top: 30px;
+  background:#fff;
+  color:#666666;
+  font-family: 'Lato', sans-serif;
+  font-weight:100;
+}
+
+.button {
+  display: inline-block;
+  padding: .8rem 1.25rem;
+  border-radius: 10rem !important;
+  color: #b0aaa9;
+  font-size: 1rem;
+  transition: all .3s;
+  position: relative;
+  z-index: 1;
+  border:none !important;
+  font-size:0.9rem;
+  font-weight:700;
+}
+
+.login_wrapper .nav-tabs:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  width: 50%;
+  height: 100%;
+  background-color: #f98e03;
+  transition: all .3s;
+  border-radius: 10rem;
+}
+.button.active {
+  color: #fff !important;
+}
+.login_wrapper .nav-tabs.active:before {
+  width: 50%;
+  left:0; 
+  right:auto;
+}
+.bg-contact{
+	background:url('../../images/register-img.jpeg') no-repeat top left;
+	background-size:cover;
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.2);
+}
+.login_wrapper{
+	background:#fff;
+	position:relative;
+}
+.bg-contact h1{ font-weight:900; font-size:28px;}
+.bg-contact	p.mb-4{ color:#dad2d0; font-size:0.9rem;}
+.login_wrapper .nav-tabs .nav-item{ width:50%;}
+.login_wrapper .nav-tabs .nav-item .nav-link{ width:100%; text-align:center; background:transparent;}
+.login_wrapper .nav-tabs .nav-item .nav-link:hover{ color:#b0aaa9;}
+.login_wrapper .nav-tabs{ border:none; max-width:300px; position:relative;}
+.login_wrapper .form-control{ border-width:0 0 2px 0; border-radius:0; border-color:#f1eaea; background:transparent;}
+.login_wrapper .form-control:focus{ box-shadow:none; outline:none; border-color:#e3dddb;}
+.login_wrapper label{ color:#dad2d0;}
+.btn-submit{ font-size:0.8rem; font-weight:900; text-transform:capitalize; background:#fa8d00; color:#fff; border-radius:10rem; width:100%; max-width:180px; border:none; padding-top:0.8rem; padding-bottom:0.8rem;}
+.btn-submit:hover{background:#fa8d00;}
+a.forgot{ color:#beb6b5; text-decoration:underline;}
+.btn-default{ background:#f6f6f5; padding-top:0.8rem; padding-bottom:0.8rem; color:#b4aead; border-radius:10rem; }
+.btn-default i{ color:#f98e03;}
+.login_wrapper p a,.login_wrapper p{ color:#dad2d0;}
+.tab-pane.fade .form-animate{
+  transition: all 0.3s;
+  transform: translateY(2rem);
+}
+
+.tab-pane.fade.show .form-animate{
+  transform: translateY(0rem);
+}

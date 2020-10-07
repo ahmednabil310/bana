@@ -1,0 +1,176 @@
+.nav-tabs.custom-tabs {
+  justify-content: center;
+  @media screen and (max-width: 991px) {
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+  .nav-item {
+    padding: 4px 8px;
+    flex: initial;
+
+    .nav-link {
+      display: inline-block;
+      padding: 4px 8px 5px;
+      font-size: 14px;
+      border: none;
+      position: relative;
+      color: #333;
+      text-transform: capitalize;
+      border-radius: 3px;
+      &:hover {
+        border: none;
+        color: #fff;
+      }
+
+      &.Stories {
+          color: #AD6A05;
+          border: 1px solid #AD6A05;
+          &:hover {
+            background: #AD6A05;
+            color: #fff;
+          }
+      }
+
+      &.Threats {
+          color: #FF4040;
+          border: 1px solid #FF4040;
+          &:hover {
+            background: #FF4040;
+            color: #fff;
+          }
+      }
+
+      &.Breaches {
+          color: #E617D1;
+          border: 1px solid #E617D1;
+          &:hover {
+            background: #E617D1;
+            color: #fff;
+          }
+      }
+
+      &.Breaches {
+          color: #E617D1;
+          border: 1px solid #E617D1;
+          &:hover {
+            background: #E617D1;
+            color: #fff;
+          }
+      }
+
+      &.Actors {
+          color: #9F55A1;
+          border: 1px solid #9F55A1;
+          &:hover {
+            background: #9F55A1;
+            color: #fff;
+          }
+      }
+
+      &.Solutions {
+          color: #1DB534;
+          border: 1px solid #1DB534;
+          &:hover {
+            background: #1DB534;
+            color: #fff;
+          }
+      }
+
+      &.Solutions {
+          color: #1DB534;
+          border: 1px solid #1DB534;
+          &:hover {
+            background: #1DB534;
+            color: #fff;
+          }
+      }
+
+      &.Companies {
+          color: #5D61E7;
+          border: 1px solid #5D61E7;
+          &:hover {
+            background: #5D61E7;
+            color: #fff;
+          }
+      }
+
+      &.Experts {
+          color: #15AFD1;
+          border: 1px solid #15AFD1;
+          &:hover {
+            background: #15AFD1;
+            color: #fff;
+          }
+      }
+
+      &.active {
+        &:after {
+          content: normal;
+        }
+
+        &.Stories {
+          background: #AD6A05;
+          color: #fff;
+        }
+
+        &.Threats {
+          background: #FF4040;
+          color: #fff;
+        }
+
+        &.Breaches {
+          background: #E617D1;
+          color: #fff;
+        }
+
+        &.Breaches {
+          background: #E617D1;
+          color: #fff;
+        }
+
+        &.Actors {
+          background: #9F55A1;
+          color: #fff;
+        }
+
+        &.Solutions {
+          background: #1DB534;
+          color: #fff;
+        }
+
+        &.Solutions {
+          background: #1DB534;
+          color: #fff;
+        }
+
+        &.Companies {
+          background: #5D61E7;
+          color: #fff;
+        }
+
+        &.Experts {
+          background: #15AFD1;
+          color: #fff;
+        }
+
+      }
+    }
+  }
+}
+
+.nav-tabs.tabs-secondary {
+  .nav-item {
+    padding: 0;
+
+    .nav-link {
+      color: #7d7d7d;
+      &:active, &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+      &.active {
+        color: #3B5998;
+      }
+    }
+  }
+}

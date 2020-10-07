@@ -1,0 +1,42 @@
+.label-indicator {
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  border-radius: 5px;
+
+  &.critical {
+    background: $red-color;
+  }
+
+  &.important {
+    background: $purple-color;
+  }
+}
+
+.bages-list {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-bottom: 8px;
+  li {
+    padding: 6px 8px;
+    color: $white-color;
+    border-radius: 3px;
+    margin-right: 8px;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 12px;
+    &:before {
+      content: normal;
+    }
+
+    &.critical {
+      background: $red-color;
+    }
+
+    &.important {
+      background: $purple-color;
+    }
+
+  }
+}

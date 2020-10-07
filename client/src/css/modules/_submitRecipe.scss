@@ -1,0 +1,40 @@
+.upload-image-button {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  border: 1px rgb(158, 158, 158) dashed;
+  &:hover {
+    color: #eb4a36;
+    opacity: 0.6;
+  }
+  &:active {
+    position:relative;
+	  top:1px;
+  }
+}
+
+.uploaded-image {
+  width: 120px;
+  height: 80px;
+  z-index: 0;
+}
+
+.uploaded-image-container {
+  position: relative;
+}
+
+.bgr-grey-circle {
+  position: absolute;
+  background: $grey-color-light-bg!important;
+  border-radius: 50%;
+  // opacity: 80%;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  right: 15px;
+  z-index: 5;
+}

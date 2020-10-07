@@ -1,0 +1,153 @@
+.btn, button {
+  &:focus, &:active {
+    outline: none!important;
+    box-shadow: none!important;
+  }
+}
+
+.btn-lg {
+  width: 270px;
+}
+
+.action-buttons{
+    font-size: 12px;
+    color: rgb(158, 158, 158);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+
+.btn-primary {
+  background: $theme-color;
+  border: 1px solid $theme-color;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 2px;
+  @media screen and (max-width: 1200px) {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  &:hover, &:focus {
+    background: darken($theme-color, 10%);
+    border: 1px solid darken($theme-color, 10%);
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.btn-xs {
+    padding: 4px 10px;
+  }
+
+  &.btn-sm {
+    padding: 5px 8px;
+    @media screen and (max-width: 1280px) {
+      font-size: 12px;
+    }
+  }
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #E617D1;
+    border-color: #E617D1;
+    &:hover, &:focus {
+      background: darken(#E617D1, 10%);
+      border: 1px solid darken(#E617D1, 10%);
+      box-shadow: none;
+      outline: none;
+    }
+}
+
+.btn-outline-primary {
+  border: 1px solid $theme-color;
+  color: $theme-color;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 2px;
+  &:hover, &:focus {
+    border-color: darken($theme-color, 10%)!important;
+    background: darken($theme-color, 10%)!important;
+    color: #fff!important;
+    box-shadow: none!important;
+    outline: none!important;
+  }
+}
+
+.btn-linkedin {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0073b1;
+  border: none;
+  padding: 16px 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 16px;
+  img {
+    margin-right: 20px;
+    width: 18px;
+    position: relative;
+    top: -2px;
+  }
+  &:hover, &:focus {
+    background: darken(#0073b1, 10%);
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+  }
+}
+.btn-link {
+  color: $theme-color;
+  font-size: 16px;
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.grey {
+    color: $grey-color-secondary;
+
+    &:hover {
+      color: $theme-color;
+    }
+  }
+}
+
+.btn.btn-lg {
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  background: $grey-color-secondary;
+  border: 1px solid $grey-color-secondary;
+  color: $white-color;
+
+  &:hover {
+    background: $grey-color-md;
+    color: $theme-text-color;
+    border: 1px solid $grey-color-md;
+  }
+
+  &:focus {
+    background: $grey-color-md;
+    border: 1px solid $grey-color-md;
+    color: $theme-text-color;
+  }
+
+  &.btn-sm {
+    font-size: 14px;
+    line-height: 1.75;
+    padding: 5px 8px;
+    @media screen and (max-width: 1280px) {
+      font-size: 12px;
+    }
+  }
+}

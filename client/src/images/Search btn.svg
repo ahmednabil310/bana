@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="Search_btn" data-name="Search btn" transform="translate(-972 -20)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="37" height="37" rx="18.5" transform="translate(972 20)" fill="#f77c49"/>
+    <g id="search-2-line" transform="translate(980.679 28.679)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H20.643V20.643H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M9.741,2A7.741,7.741,0,1,1,2,9.741,7.744,7.744,0,0,1,9.741,2Zm0,13.762A6.021,6.021,0,1,0,3.72,9.741,6.02,6.02,0,0,0,9.741,15.762Zm7.3.061,2.433,2.432-1.217,1.217-2.432-2.433,1.216-1.216Z" transform="translate(-0.28 -0.28)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
